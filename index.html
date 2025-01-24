@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="false">
+    <meta name="MobileOptimized" content="0">
+    <title>MC666官网 | Minecraft资源站</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/favicon.ico" type="image/x-icon">
+<!--<link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon">-->
+    <script type="text/javascript">
+        // 检测移动设备的函数
+        function detectMobile() {
+            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+            const mobileUrl = "https://w1-tech.github.io/e/";
+
+            // 检测iOS设备
+            if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+                window.location = mobileUrl; // 重定向到手机版网站
+            }
+
+            // 检测Android设备
+            else if (/Android/.test(userAgent)) {
+                window.location = mobileUrl; // 重定向到手机版网站
+            }
+
+            // 其他设备则不重定向
+            else {
+                // 可以在这里添加代码，用于处理非移动设备的逻辑
+            }
+        }
+
+        // 页面加载完成后执行检测函数
+        window.onload = function() {
+            detectMobile();
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <h1 class="name">MC666官网</h1>
+        <p class="text">Minecraft服务器</p>
+        <p class="tagline">纯净空间,极致生存</p>
+        <nav>
+            <ul>
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="https://example.com/about">关于服务器</a></li>
+                <li><a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Ir1zD_GixZEPad26EUGz9l2elHyuw3kr&authKey=HnkNRi%2BTBJDPja7kwj%2Fw2Ggn%2F8BkptVR%2F7GcELFEdM0njEkOFij3e%2FvdtcJTN5c%2B&noverify=0&group_code=1022888564">联系我们</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="team">
+        <div>
+            <h1><br>团队成员
+            </h1>
+        </div>
+        <img src="image/1.png" alt="团队成员头像">
+        <div class="name"><br>アリス・トリスタ</div>
+    </section>
+    
+</body>
+
+<style>
+    body {
+      margin: 0; /* 移除默认边距 */
+      padding: 0; /* 移除默认填充 */
+      display: flex; /* 使用弹性盒模型 */
+      flex-direction: column; /* 垂直排列子元素 */
+      height: 100vh; /* 视口高度 */
+    }
+    footer {
+      margin-top: auto; /* 将页脚推到视口底部 */
+      width: 100%; /* 页脚宽度与视口宽度一致 */
+      text-align: center; /* 文本居中 */
+      padding: 10px 0; /* 上下填充 */
+      background-color: #0d78cf; /* 页脚背景颜色 */
+      border-top: 1px solid #0a71e0; /* 上边框 */
+      font-size: 0.875em; /* 字体大小 */
+      color: aqua; /* 字体颜色 */
+    }
+  </style>
+  </head>
+  <body>
+  <footer class="s-footer footer">
+    <div class="row">
+        <div class="column large-full footer__content">
+            <div class="footer__copyright">
+                <span>版权所有 © 2025 MC666</span> 
+                <span><a href="https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=Ir1zD_GixZEPad26EUGz9l2elHyuw3kr&authKey=HnkNRi%2BTBJDPja7kwj%2Fw2Ggn%2F8BkptVR%2F7GcELFEdM0njEkOFij3e%2FvdtcJTN5c%2B&noverify=0&group_code=1022888564">服务器QQ群:1022888564</a></span>
+            </div>
+        </div>
+    </div>
+  </footer>
+  </body>
+</html>
